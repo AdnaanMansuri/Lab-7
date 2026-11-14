@@ -1,0 +1,14 @@
+# NetBeans / Ant build output
+/build/
+/dist/
+/nbproject/private/
+
+# IDE noise
+*.class
+.DS_Store
+Thumbs.db
+
+# Instructor-provided material (assignment brief + reference solution screenshots)
+# kept locally for convenience, not published to the public repo
+/reference/
+/build_verify/
