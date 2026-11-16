@@ -20,6 +20,9 @@ public class MainJFrame extends javax.swing.JFrame {
     public MainJFrame() {
         initComponents();
         setTitle("Lab 7 - Student CRUD (JDBC + MySQL)");
+        // The registration form carries many fields now, so give the window room.
+        setMinimumSize(new java.awt.Dimension(820, 640));
+        setSize(1040, 760);
         setLocationRelativeTo(null);
 
         formPanel = new FormJPanel();
